@@ -1,10 +1,16 @@
-<!DOCTYPE html>
 <html>
+
 <body>
+    <script>
+        var Nama = prompt("MASUKAN NAMA MAHASISWA:")
+        var Nilai = prompt("MASUKAN NILAI SISWA")
 
-<p id="html dan javascript"></p>
-
- <script type="text/javascript" src="https://hastebin.com/raw/tefijicici"></script>
-
+        if (Nilai > 70) {
+            document.writeln("SELAMAT ANDA TELAH LULUS" + "<br>Nama:" + Nama + "" + "<br>Nilai:" + Nilai + "")
+        } else {
+            document.writeln("Opps! anda Tidak lulus" + "<br>Nama:" + Nama + "" + "<br>Nilai:" + Nilai + "")
+        }
+    </script>
 </body>
+
 </html>
