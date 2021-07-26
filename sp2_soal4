@@ -1,0 +1,24 @@
+<html>
+<title>Jawaban sp2 no.4</no>
+</title>
+
+<body>
+    <script>
+        function deretAngka(awal, akhir) {
+            for (var y = awal; y < akhir; y++) {
+                for (var x = awal; x < akhir; x++) {
+                    if (x == 9 - (y - 1)) {
+                        var hasil = x * 2 - 2
+                        document.writeln(hasil)
+                    } else {
+                        document.writeln("_")
+                    }
+                }
+                document.writeln("</br>")
+            }
+
+        }
+        deretAngka(1, 10)
+    </script>
+</body>
+<html>
