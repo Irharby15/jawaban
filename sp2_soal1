@@ -1,0 +1,18 @@
+<html>
+<title>Jawaban sp2 no.1
+</title>
+
+<body>
+    <script>
+        function persegipanjang(P, L) {
+            var luas = P * L
+            document.writeln("panjang" + P)
+            document.writeln("Lebar" + L)
+            document.writeln("luas persegi panjang = " + luas)
+        }
+        panjang = prompt("masukan nilai panjang")
+        lebar = prompt("masukan lebar")
+        persegipanjang(panjang, lebar)
+    </script>
+</body>
+<html>
