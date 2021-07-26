@@ -1,0 +1,23 @@
+<html>
+<title>Jawaban sp2 no.3</no></title>
+
+<body>
+    <script>
+        function deretAngka(awal, akhir) {
+            for (var y = awal; y < akhir; y++) {
+                for (var x = awal; x < akhir; x++) {
+                    if (y == x || x == 9 - (y - 1) || y == 2 || y == 8 || x == 2 || x == 8) {
+                        //var hasil = y * 2 - 2
+                        document.writeln("*") //(hasil)
+                    } else {
+                        document.writeln("_")
+                    }
+                }
+                document.writeln("</br>")
+            }
+
+        }
+        deretAngka(1, 10)
+    </script>
+</body>
+<html>
