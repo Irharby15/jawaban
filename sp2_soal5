@@ -1,0 +1,24 @@
+<html>
+
+<body>
+    <script>
+        var Nilai = prompt("Masukan Nilai Anda");
+        var Nilai_anda = "";
+
+        switch (true) {
+            case Nilai >= 90:
+                document.writeln("Nilai anda:" + Nilai + "<br>" + "Masuk:" + "A" + "<br>" + "Selamat anda telah lulus");
+                break;
+            case Nilai >= 80:
+                document.writeln("Nilai anda:" + Nilai + "<br>" + "Masuk:" + "B+" + "<br>" + "Selamat anda telah lulus");
+                break;
+            case Nilai >= 70:
+                document.writeln("Nilai anda:" + Nilai + "<br>" + "Masuk:" + "B" + "<br>" + "Selamat anda telah lulus");
+                break;
+            default:
+                document.writeln("Nilai anda:" + Nilai + "<br>" + "Masuk:" + "F" + "<br>" + "Maaf anda tidak lulus")
+        }
+    </script>
+</body>
+
+</html>
