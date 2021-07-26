@@ -1,18 +1,23 @@
+
 <html>
-<title>Jawaban sp2 no.1
+<title>Jawaban sp2 no.2
 </title>
 
 <body>
     <script>
+        document.writeln("<h1>Rumus Luas Persegi panjang</h1>")
+
         function persegipanjang(P, L) {
             var luas = P * L
-            document.writeln("panjang" + P)
-            document.writeln("Lebar" + L)
-            document.writeln("luas persegi panjang = " + luas)
+            document.writeln("panjang: " + P)
+            document.writeln("<br>" + "Lebar: " + L)
+            document.writeln("<br>" + "luas persegi panjang = " + luas)
         }
         panjang = prompt("masukan nilai panjang")
         lebar = prompt("masukan lebar")
-        persegipanjang(panjang, lebar)
+        persegipanjang(panjang, lebar);
+
+        document.write("</br>");
     </script>
 </body>
 <html>
