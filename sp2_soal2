@@ -1,0 +1,24 @@
+<html>
+<title>Jawaban sp2 no.2
+</title>
+
+<body>
+    <script>
+        document.writeln("<h1>Rumus volume dan luas permukaan Balok </h1>");
+
+        function Rumus_Balok(T, P, L) {
+            var volume = P * L * T
+            document.writeln("hasil perhitungan volume balok: " + volume)
+            var luas = 2 * (P * L) + (P * T) + (L * T)
+            document.writeln("<br>" + "Tinggi: " + T)
+            document.writeln("<br>" + "panjang: " + P)
+            document.writeln("<br>" + "Lebar: " + L)
+            document.writeln("<br>" + "luas persegi panjang = " + luas)
+        }
+        tinggi = prompt("masukan nilai tinggi")
+        panjang = prompt("masukan nilai panjang")
+        lebar = prompt("masukan lebar")
+        Rumus_Balok(panjang, lebar, tinggi)
+    </script>
+</body>
+<htm
