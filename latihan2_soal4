@@ -1,0 +1,15 @@
+<html>
+
+<body>
+    <script>
+        var nilaiSantri = [5, 9, 6, 7, 9, 8, 10, 7, 8];
+        var hasil_nilai = 0;
+
+        for (var y = 0; y < nilaiSantri.length; y++) {
+            hasil_nilai += nilaiSantri[y]
+        };
+        document.writeln(hasil_nilai)
+        document.writeln(hasil_nilai / nilaiSantri.length);
+    </script>
+</body>
+<html>
