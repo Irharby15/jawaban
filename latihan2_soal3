@@ -1,0 +1,11 @@
+<html>
+
+<body>
+    <script>
+        var SantriPondok = ["", "Wandi", "Aldi", "Acep", "Putra", "Hafif", "Syofyan", "Rahmad"]
+        for (var y = 1; y < SantriPondok.length; y++) {
+            console.log(y + "." + " " + SantriPondok[y])
+        }
+    </script>
+</body>
+<html>
