@@ -1,0 +1,11 @@
+<html>
+
+<body>
+    <script>
+        var reactNative = ["reactNative: Hafif , Dayat, Wandi "];
+        var reactJs = ["<br>" + "reactJs: Yusuf, Luthfi, Tompel"];
+        var JavaScriptDivision = reactNative.concat(reactJs);
+        document.write(JavaScriptDivision)
+    </script>
+</body>
+<html>
